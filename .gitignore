@@ -1,0 +1,18 @@
+# Python virtual environment
+SLM_Work/
+.venv/
+__pycache__/
+*.pyc
+
+# Raw downloads (~820 MB) - recreate with prepare_wmt14.py
+data/
+
+# Processed CSVs are hosted on Hugging Face
+processed/*.csv
+
+# Reference paper (not ours to redistribute)
+*.pdf
+
+# Secrets
+.env
+*.token
